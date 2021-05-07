@@ -1,0 +1,262 @@
+body
+{
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/* common css section start here */
+.p-20-30
+{
+    padding: 20px 30px;
+}
+.gray
+{
+    color: gray !important;
+}
+.black
+{
+    color: black !important;
+}
+.bg-black
+{
+    background-color: black !important;
+}
+.white
+{
+    color: white !important;
+}
+.bg-white
+{
+    background-color: white !important;
+}
+.primary-color
+{
+    color: #02AD88 !important;
+}
+.bg-primary-color
+{
+    background-color: #02AD88 !important;
+}
+.shadow-primary-color
+{
+    box-shadow:1px 1px 20px 2px #02ad8854;
+}
+.border-primary-color
+{
+    border-color: #02AD88 !important;
+}
+.bg-primary-color-op
+{
+    background: #5ae1c48c;
+}
+.fw-300
+{
+    font-weight: 300;
+}
+.fw-400
+{
+    font-weight: 400;
+}
+.fw-500
+{
+    font-weight: 500;
+}
+.fw-600
+{
+    font-weight: 600;
+}
+.fw-800
+{
+    font-weight: 800;
+}
+.section .subtitle-text
+{
+    font-size: 30px;
+}
+.section .title-text
+{
+    font-size: 45px;
+}
+.section .description-text
+{
+    font-size: 18px;
+    line-height: 2;
+    margin: 14px 0px 30px 0px;
+    color: #7a7a7a;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.section .get-started-section button
+{
+    padding: 10px 60px;
+    margin-right: 40px;
+    border-radius: 0;
+}
+.section .get-started-section span
+{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+.why-choose-us, .email-validation, .email-intelligense, .identi-maching, .pricing-table, .footer
+{
+    margin-top: 80px;
+}
+
+/* common css section end here */
+
+/* header section css start here */
+.header .logo-text
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.header .menu
+{
+    margin-right: 20px;
+}
+.header button
+{
+    padding: 10px 35px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+/* header section css end here */
+
+/* home-banner section css start here */
+.home-banner .left-section
+{
+    padding: 101px 0px;
+    padding-right: 110px;
+}
+.home-banner .right-section
+{
+    padding: 0px 60px 0px 0px;
+}
+.home-banner .right-section img
+{
+    width: 100%;
+    height: auto;
+}
+/* home-banner section css end here */
+
+/* why choose us section start here */
+.why-choose-us .left-section
+{
+    padding: 202px 0px;
+    padding-right: 110px;
+}
+.why-choose-us .card-right
+{
+    margin-top: 40px;
+}
+.why-choose-us .card-box
+{
+    box-shadow: 0px 0px 20px 1px #00000012;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 50px 25px;
+}
+.why-choose-us .card-icon
+{
+    padding: 12px 17px;
+    border-radius: 50%;
+    font-size: 25px;
+    width:fit-content;
+    margin:auto;
+}
+.why-choose-us .card-box .card-title
+{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.why-choose-us .card-box .card-discription
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-top: 20px;
+
+}
+.why-choose-us .card-box .card-read-more
+{
+    margin: 20px 0px 0px 0px;
+}
+
+.why-choose-us .card-box .card-read-more span
+{
+    padding: 0px 5px;
+}
+/* why choose us section end here */
+
+/* email validation section start here */
+.email-validation .right-section
+{
+    padding: 85px 0px;
+    padding-right: 50px;
+}
+/* email validation sectioin end here */
+
+/* email intelligense section start here */
+.email-intelligense .left-section
+{
+    padding: 42px 0px;
+}
+/* email intelligense section end here */
+
+/* identi-maching section start here */
+.identi-maching .right-section
+{   
+    padding: 21px 0px;
+    padding-right: 50px;
+}
+/* identi-maching section end here */
+
+/* pricing table section start here */
+table
+{
+    box-shadow: 0px 0px 20px 1px #00000012;
+    width:80%;
+}
+table thead td 
+{
+    padding: 40px 40px;
+    font-weight: 500;
+    font-size: 20px;
+}
+table thead td span
+{
+    font-weight: 600;
+}
+table tbody td
+{
+    padding: 12px 12px 12px 40px;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #7a7a7a;
+}
+table tr>:nth-child(1), table tr>:nth-child(2), table tr>:nth-child(3)
+{
+    border-right: 1px solid #dee2e6;
+}
+table tbody tr:nth-child(odd)>td
+{
+  background:#F9FAFF;
+}
+table .get-started-section button
+{   
+    padding: 8px 30px !important;
+    margin-right: 0px !important;
+}
+/* pricing table section end here */
+
+/* footer section start here */
+.footer
+{
+    background: #F9FAFF;
+    padding: 100px 30px;
+}
+
+.footer .description-text
+{
+    color: #504e4e;
+    line-height: 1.5;
+}
+/* footer section end here */
