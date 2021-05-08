@@ -100,7 +100,7 @@ body
     font-size: 16px;
     color: #7a7a7a;
 }
-.why-choose-us, .email-validation, .email-intelligense, .identi-maching, .pricing-table, .footer
+.why-choose-us, .email-validation, .email-intelligense, .identi-maching, .pricing-table, .footer, .frequesntly-asked
 {
     margin-top: 80px;
 }
@@ -126,6 +126,20 @@ body
 /* header section css end here */
 
 /* home-banner section css start here */
+.home-banner 
+{
+    position: relative;
+}
+.home-banner .background
+{
+    background: #FAF9FF;
+    position: absolute;
+    width: 100%;
+    height: 137%;
+    top: -93px;
+    z-index: -1;
+    border-radius: 0% 0% 100% 29% / 14% 0% 100% 2%;
+}
 .home-banner .left-section
 {
     padding: 101px 0px;
@@ -143,6 +157,16 @@ body
 /* home-banner section css end here */
 
 /* why choose us section start here */
+.background2
+{
+    border-radius: 50% 65% 0% 100% / 37% 24% 0% 62%;
+    width: 54%;
+    height: 1523px;
+    background: #FAF9FF;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
 .why-choose-us .left-section
 {
     padding: 202px 0px;
@@ -214,26 +238,38 @@ body
 }
 /* identi-maching section end here */
 
-/* pricing table section start here */
-.pricing-table .hr-line
+/* pricing table & frequesntly-asked  section start here */
+.pricing-table .background3{
+    border-radius: 56% 44% 70% 0% / 37% 50% 50% 65%;
+    width: 54%;
+    height: 100%;
+    background: #FAF9FF;
+    position: absolute;
+    z-index: -1;
+}
+.pricing-table .hr-line, .frequesntly-asked .hr-line
 {
     height: 3px;
     background: black;
     margin: 7px auto;
 }
-.pricing-table .hr01
+.pricing-table .hr01, .frequesntly-asked .hr01
 {
     width:10%;
 }
-.pricing-table .hr02
+.pricing-table .hr02, .frequesntly-asked .hr02
 {
     width:6%;
 }
+/* pricing table & frequesntly-asked section end here */
+
+/* pricing table section start here */
 table
 {
     box-shadow: 0px 0px 20px 1px #00000012;
     width:80%;
     margin-top: 60px;
+    background: white;
 }
 table thead td 
 {
@@ -248,7 +284,7 @@ table thead td .price
 }
 table thead td .month
 {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif !important;
 }
 table tbody td
@@ -264,6 +300,10 @@ table tr>:nth-child(1), table tr>:nth-child(2), table tr>:nth-child(3)
 table tbody tr:nth-child(odd)>td
 {
   background:#F9FAFF;
+}
+table tbody tr:nth-child(6)>td
+{
+    padding: 40px 40px;
 }
 table .get-started-section button
 {   
@@ -299,3 +339,24 @@ table .get-started-section button
     width: 40%;
 }
 /* footer section end here */
+
+/* frequesntly-asked section start here*/
+.frequesntly-asked .parent-card
+{
+    width: 80%;
+}
+.frequesntly-asked .card
+{
+    font-family: 'Open Sans', sans-serif !important;
+    background: #E0F2F3;
+    margin: 30px 0px;
+    padding: 40px 40px;
+    border: 0;
+    font-size: 17px;
+}
+.frequesntly-asked .card .card-discription
+{
+    color: #7a7a7a;
+    line-height: 1.7;
+}
+/* frequesntly-asked section end here*/
