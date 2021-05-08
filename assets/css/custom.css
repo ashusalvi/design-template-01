@@ -103,6 +103,7 @@ body
 .why-choose-us, .email-validation, .email-intelligense, .identi-maching, .pricing-table, .footer, .frequesntly-asked
 {
     margin-top: 80px;
+    position: relative;
 }
 
 /* common css section end here */
