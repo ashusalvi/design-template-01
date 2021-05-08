@@ -9,6 +9,10 @@ body
 {
     padding: 20px 30px;
 }
+.p-20-50 
+{
+    padding: 20px 50px;
+}
 .gray
 {
     color: gray !important;
@@ -87,7 +91,7 @@ body
 }
 .section .get-started-section button
 {
-    padding: 10px 60px;
+    padding: 10px 40px;
     margin-right: 40px;
     border-radius: 0;
 }
@@ -211,10 +215,25 @@ body
 /* identi-maching section end here */
 
 /* pricing table section start here */
+.pricing-table .hr-line
+{
+    height: 3px;
+    background: black;
+    margin: 7px auto;
+}
+.pricing-table .hr01
+{
+    width:10%;
+}
+.pricing-table .hr02
+{
+    width:6%;
+}
 table
 {
     box-shadow: 0px 0px 20px 1px #00000012;
     width:80%;
+    margin-top: 60px;
 }
 table thead td 
 {
@@ -222,9 +241,15 @@ table thead td
     font-weight: 500;
     font-size: 20px;
 }
-table thead td span
+table thead td .price
 {
     font-weight: 600;
+    font-family: 'Open Sans', sans-serif !important;
+}
+table thead td .month
+{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif !important;
 }
 table tbody td
 {
@@ -251,12 +276,26 @@ table .get-started-section button
 .footer
 {
     background: #F9FAFF;
-    padding: 100px 30px;
+    padding: 100px 50px;
 }
 
 .footer .description-text
 {
     color: #504e4e;
     line-height: 1.5;
+}
+.footer .hr-line
+{
+    height: 2px;
+    background: black;
+    margin: 10px 0px 15px 0px;
+}
+.footer .hr01
+{
+    width: 20%;
+}
+.footer .hr02
+{
+    width: 40%;
 }
 /* footer section end here */
